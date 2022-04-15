@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AyatullohAK 116</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Montserrat", sans-serif
+        }
+        
+        .w3-row-padding img {
+            margin-bottom: 12px
+        }
+        /* Set the width of the sidebar to 120px */
+        
+        .w3-sidebar {
+            width: 120px;
+            background: #222;
+        }
+        /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+        
+        #main {
+            margin-left: 120px
+        }
+        /* Remove margins from "page content" on small screens */
+        
+        @media only screen and (max-width: 600px) {
+            #main {
+                margin-left: 0
+            }
+        }
+    </style>
+</head>
+
+<body class="w3-black">
+
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+        <!-- Avatar image in top left corner -->
+        <img src="icon.jpg" alt="icon" style="width:50%">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>Wellcome</p>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>ABOUT</p>
+        </a>
+        <a href="#project" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>PROJECT</p>
+        </a>
+        <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-eye w3-xxlarge"></i>
+            <p>PHOTOS</p>
+        </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>CONTACT</p>
+        </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">Wellcome</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+            <a href="#project" class="w3-bar-item w3-button" style="width:25% !important">PROJECT</a>
+            <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+        <!-- Header/wellcome -->
+        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+            <h1 class="w3-jumbo"><span class="w3-hide-small">Hello!</span> Wellcome To My Portofolio</h1>
+            <p>I'm Ayatulloh Alkursi</p>
+            <img src="home.jpg" alt="home" class="w3-image" width="400" height="600">
+        </header>
+
+        <!-- About Section -->
+        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+            <h2 class="w3-text-light-grey">Biodata</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <p> Ayatulloh Alkursi </p>
+            <p>Student at Universitas Merdeka Malang </p>
+            <p>S1 Sistem Informasi</p>
+            <p>Fakultas Teknologi Informasi</p>
+            <p>Class A NiM 20083000116</p>
+            <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+            <p class="w3-wide">Game</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+            </div>
+            <p class="w3-wide">Photography</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+            </div>
+            <p class="w3-wide">Videography</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+            </div><br>
+            <!-- End About Section -->
+
+            <!-- Project Section -->
+            <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="project">
+                <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+                    <div class="w3-quarter w3-section">
+                        <span class="w3-xlarge">11+</span><br> Partners
+                    </div>
+                    <div class="w3-quarter w3-section">
+                        <span class="w3-xlarge">55+</span><br> Projects Done
+                    </div>
+                    <div class="w3-quarter w3-section">
+                        <span class="w3-xlarge">89+</span><br> Happy Clients
+                    </div>
+                    <div class="w3-quarter w3-section">
+                        <span class="w3-xlarge">150+</span><br> Meetings
+                    </div>
+                </div>
+
+
+                <!-- Testimonials -->
+                <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>
+                <img src="data:image/webp;base64,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"
+                    alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+                <p><span class="w3-large w3-margin-right">Megawati.</span> CEO at Banteng.</p>
+                <p>Ingat Rebus Gorengan Minyak Langka.</p><br>
+
+                <img src="data:image/webp;base64,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"
+                    alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+                <p><span class="w3-large w3-margin-right">vladimir Putin.</span> Presiden Rusia.</p>
+                <p>No one is better than Ayatulloh Alkursi URAAAAAAAAAAAAAAAAAAAA.</p>
+
+                <!-- Project -->
+                <h4 class="w3-padding-24 w3-text-light-grey">My Project</h4>
+                <p><span class="w3-large w3-margin-right">Videography.</p>
+                    <p>Click here to view more <a href="https://vt.tiktok.com/ZSdh7wxyT/">Videos</a>.</p>
+                <!-- End Project Section -->
+            </div>
+
+            <!-- Portfolio Section -->
+            <div class="w3-padding-64 w3-content" id="photos">
+                <h2 class="w3-text-light-grey">My Photos</h2>
+                <hr style="width:200px" class="w3-opacity">
+
+                <!-- Grid for photos -->
+                <div class="w3-row-padding" style="margin:0 -16px">
+                    <div class="w3-half">
+                        <img src="https://i.pinimg.com/550x/5f/2c/de/5f2cdeaffdf6d0dddc24781fa91d692d.jpg" style="width:100%">
+                        <img src="https://www.itp.net/cloud/2021/08/19/PUBGMobile-1-1.jpg" style="width:100%">
+                    </div>
+
+                    <div class="w3-half">
+                        <img src="alam.jpg" style="width:100%">
+                    </div>
+                    <!-- End photo grid -->
+                </div>
+                <!-- End Portfolio Section -->
+            </div>
+
+            <!-- Contact Section -->
+            <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+                <h2 class="w3-text-light-grey">Contact Me</h2>
+                <hr style="width:200px" class="w3-opacity">
+
+                <div class="w3-section">
+                    <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Gondanglegi, Malang</p>
+                    <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 0856 5555 6736</p>
+                    <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: ayetullo123@gmail.com</p>
+                    <p><i class="fa fa-github fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Github: <a href="https://github.com/Ayatulloh87" target="_blank">Ayatulloh87</a>.</p>
+                </div><br>
+                <p>Let's get in touch. Send me a message:</p>
+
+                <form action="/action_page.php" target="_blank">
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+                    <p>
+                        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+                    </p>
+                </form>
+                <!-- End Contact Section -->
+            </div>
+
+            <!-- Footer -->
+            <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-snapchat w3-hover-opacity"></i>
+                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+                <!-- End footer -->
+            </footer>
+
+            <!-- END PAGE CONTENT -->
+        </div>
+
+</body>
+
+</html>
